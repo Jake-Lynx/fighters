@@ -10,3 +10,5 @@ Users can read game synopsis and download it on his plateform.
 It's also possible to filter games.
 More features are on website.
 Don't hesitate to visit it!
+
+Made with Html, Sass & Js
