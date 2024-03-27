@@ -1,0 +1,21 @@
+<svg width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon:medal">
+<g id="bg" filter="url(#filter0_d_139_3803)">
+<ellipse cx="20.1352" cy="17.6345" rx="14.5196" ry="12.5" fill="#F2F2F2"/>
+<path d="M34.1548 17.6345C34.1548 24.1943 27.9509 29.6345 20.1352 29.6345C12.3195 29.6345 6.1156 24.1943 6.1156 17.6345C6.1156 11.0748 12.3195 5.63452 20.1352 5.63452C27.9509 5.63452 34.1548 11.0748 34.1548 17.6345Z" stroke="#07203F"/>
+</g>
+<path id="icon:medal_2" d="M24.7402 8.13452C24.4873 8.98428 24.2394 9.81966 23.9864 10.645C21.6946 10.9617 19.4078 10.9621 17.116 10.645C16.8631 9.81966 16.6152 8.98428 16.3622 8.13452C19.1397 9.11799 21.9627 9.11799 24.7402 8.13452ZM25.6155 8.33444L27.3559 10.3358C26.6476 14.528 25.3322 19.2275 23.435 23.5308C22.8936 22.9907 22.1601 22.603 21.3202 22.455C22.752 17.6073 24.1837 13.2082 25.6155 8.33444ZM15.487 8.33444C16.9187 13.2082 18.3505 17.6073 19.7822 22.455C18.9424 22.603 18.2088 22.9907 17.6675 23.5308C15.7703 19.2275 14.4549 14.528 13.7466 10.3358L15.487 8.33444ZM20.5512 23.1693C22.1499 23.1693 23.435 24.2756 23.435 25.6519C23.435 27.0282 22.1499 28.1345 20.5512 28.1345C18.9525 28.1345 17.6675 27.0282 17.6675 25.6519C17.6675 24.2756 18.9525 23.1693 20.5512 23.1693Z" fill="#07203F"/>
+</g>
+<defs>
+<filter id="filter0_d_139_3803" x="0.615601" y="0.134521" width="39.0392" height="35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_139_3803"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_139_3803" result="shape"/>
+</filter>
+</defs>
+</svg>

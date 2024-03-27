@@ -1,0 +1,39 @@
+.community
+	&-hero
+		display: flex
+		align-items: center
+		margin-top: 5.31rem
+		gap: 3.75rem
+		@include media-medium
+			gap: 5.56rem
+		@include media-small
+			flex-direction: column
+			gap: 1.88rem
+
+		&__image
+			box-shadow: 0 0 .31rem 0 $color-site-2-c
+			border-radius: .5rem
+			@include media-medium
+				width: 60%
+			@include media-small
+				width: 100%
+
+		&__title
+			text-align: center
+			@include media-small
+				padding: 0 3.99rem
+
+	&-universe
+		margin-top: 7.5rem
+		@include media-small
+			margin-top: 2.88rem
+		&__list
+			display: grid
+			grid-template-columns: 1fr 1fr 1fr
+			@include media-medium
+				grid-template-columns: 1fr 1fr
+			@include media-small
+				grid-template-columns: 1fr
+
+			& .community // community card
+				margin: 0 auto 2rem auto

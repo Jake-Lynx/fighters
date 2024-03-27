@@ -1,0 +1,19 @@
+{
+  "name": "project-gamever",
+  "version": "1.0.0",
+  "description": "Project about gaming website",
+  "main": "caroussel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint scripts/*.js",
+    "dev": "http-server" 
+  },
+  "author": "Jake Lynx",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.49.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

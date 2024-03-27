@@ -1,0 +1,954 @@
+[
+	{
+		"id": 1,
+		"title": "tekken 8",
+		"category": "fighting",
+		"free": true,
+		"platforms": ["ps5", "xbox", "pc"],
+		"image": "assets/poster/tekken_8.jpg",
+		"size": "2.5Go",
+		"download": 7,
+		"unity": "m",
+		"characters": [
+			{
+				"id": 1,
+				"name": "leroy smith",
+				"pseudo": "grandmaster of drip",
+				"avatar": "assets/avatar/avatar_leroy.png",
+				"image": "assets/character/character_leroy.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 60
+					},
+					{
+						"title": "skill",
+						"value": 75
+					},
+					{
+						"title": "armor",
+						"value": 65
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Leroy Smith is extolled as a hero for freeing New York from the clutches of gangs. When he finds out that the Mishima Zaibatsu was the ringleader behind the war that tore the city apart half a century ago, he decides to participate in The King of Iron Fist Tournament with the sole purpose of taking them down."
+			},
+			{
+				"id": 2,
+				"name": "marshall law",
+				"pseudo": "the legendary dragon",
+				"avatar": "assets/avatar/avatar_marshall.png",
+				"image": "assets/character/character_marshall.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 80
+					},
+					{
+						"title": "armor",
+						"value": 40
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Marshall Law is a renowned martial arts master and runs his own dojo. However, he fell into debt due to his son's motorcycle accident, and his efforts to repay this debt caused him to neglect the management of his dojo, resulting in a sharp drop-off of students coming to train. Law set out to find a distinguished master who could take over the dojo and solve all his troubles. Unfortunately, all negotiations ended in failure, and to make matters worse, his dojo was repossessed as collateral while he was gone."
+			},
+			{
+				"id": 3,
+				"name": "yoshimitsu",
+				"pseudo": "mechnized space ninja",
+				"avatar": "assets/avatar/avatar_yoshimitsu.png",
+				"image": "assets/character/character_yoshimitsu.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 80
+					},
+					{
+						"title": "skillfull",
+						"value": 30
+					},
+					{
+						"title": "armor",
+						"value": 50
+					},
+					{
+						"title": "speed",
+						"value": 70
+					}
+				],
+				"description": "Yoshimitsu is an inheritor of the Manji Ninjutsu and current head of the Manji Clan, a group of chivalrous thieves active since the Sengoku period. Six months ago, Yoshimitsu accepted a request from an investor of the refugee relief project. The task was to find archives that contained information on the past doings of the Mishima Zaibatsu."
+			},
+			{
+				"id": 4,
+				"name": "lars alexandersson",
+				"pseudo": "the lion of the rebellion",
+				"avatar": "assets/avatar/avatar_lars.png",
+				"image": "assets/character/character_lars.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 40
+					},
+					{
+						"title": "armor",
+						"value": 45
+					},
+					{
+						"title": "speed",
+						"value": 75
+					}
+				],
+				"description": "Lars alexandersson is Heihachi Mishima's illegitimate son and the leader of the rebel army fighting against G Corporation. A former officer of the Mishima Zaibatsu's special military unit known as the Tekken Force, Lars led a coup d'état against the Zaibatsu and took many of the Tekken Force personnel with him."
+			}
+		],
+		"trailer_link": "https://www.youtube.com/watch?v=LgMiPhPYuDg&pp=ygUZdGVra2VuidggZ2FtZXBsYXkgdHJhaWxlcg%3D%3D",
+		"synopsis": "After his victory against his father - Heihachi Mishima - Kazuya continues his goal of world domination aided by the armed forces of the G Corporation. Jin is then forced to face his destiny, as he reunites with his long-lost mother, ending the reign of terror of his father, Kazuya."
+	},
+	{
+		"id": 2,
+		"title": "fifa 2023",
+		"category": "sport",
+		"free": false,
+		"platforms": ["ps5", "xbox", "pc", "android", "ios"],
+		"image": "assets/poster/fifa.jpg",
+		"size": "1.28Go",
+		"download": 2,
+		"unity": "m",
+		"characters": [
+			{
+				"id": 1,
+				"name": "leroy smith",
+				"pseudo": "grandmaster of drip",
+				"avatar": "assets/avatar/avatar_leroy.png",
+				"image": "assets/character/character_leroy.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 60
+					},
+					{
+						"title": "skill",
+						"value": 75
+					},
+					{
+						"title": "armor",
+						"value": 65
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Leroy Smith is extolled as a hero for freeing New York from the clutches of gangs. When he finds out that the Mishima Zaibatsu was the ringleader behind the war that tore the city apart half a century ago, he decides to participate in The King of Iron Fist Tournament with the sole purpose of taking them down."
+			},
+			{
+				"id": 2,
+				"name": "marshall law",
+				"pseudo": "the legendary dragon",
+				"avatar": "assets/avatar/avatar_marshall.png",
+				"image": "assets/character/character_marshall.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 80
+					},
+					{
+						"title": "armor",
+						"value": 40
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Marshall Law is a renowned martial arts master and runs his own dojo. However, he fell into debt due to his son's motorcycle accident, and his efforts to repay this debt caused him to neglect the management of his dojo, resulting in a sharp drop-off of students coming to train. Law set out to find a distinguished master who could take over the dojo and solve all his troubles. Unfortunately, all negotiations ended in failure, and to make matters worse, his dojo was repossessed as collateral while he was gone."
+			},
+			{
+				"id": 3,
+				"name": "yoshimitsu",
+				"pseudo": "mechnized space ninja",
+				"avatar": "assets/avatar/avatar_yoshimitsu.png",
+				"image": "assets/character/character_yoshimitsu.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 80
+					},
+					{
+						"title": "skillfull",
+						"value": 30
+					},
+					{
+						"title": "armor",
+						"value": 50
+					},
+					{
+						"title": "speed",
+						"value": 70
+					}
+				],
+				"description": "Yoshimitsu is an inheritor of the Manji Ninjutsu and current head of the Manji Clan, a group of chivalrous thieves active since the Sengoku period. Six months ago, Yoshimitsu accepted a request from an investor of the refugee relief project. The task was to find archives that contained information on the past doings of the Mishima Zaibatsu."
+			},
+			{
+				"id": 4,
+				"name": "lars alexandersson",
+				"pseudo": "the lion of the rebellion",
+				"avatar": "assets/avatar/avatar_lars.png",
+				"image": "assets/character/character_lars.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 40
+					},
+					{
+						"title": "armor",
+						"value": 45
+					},
+					{
+						"title": "speed",
+						"value": 75
+					}
+				],
+				"description": "Lars alexandersson is Heihachi Mishima's illegitimate son and the leader of the rebel army fighting against G Corporation. A former officer of the Mishima Zaibatsu's special military unit known as the Tekken Force, Lars led a coup d'état against the Zaibatsu and took many of the Tekken Force personnel with him."
+			}
+		],
+		"trailer_link": "https://www.youtube.com/watch?v=LgMiPhPYuDg&pp=ygUZdGVra2VuidggZ2FtZXBsYXkgdHJhaWxlcg%3D%3D",
+		"synopsis": "After his victory against his father - Heihachi Mishima - Kazuya continues his goal of world domination aided by the armed forces of the G Corporation. Jin is then forced to face his destiny, as he reunites with his long-lost mother, ending the reign of terror of his father, Kazuya."
+	},
+	{
+		"id": 3,
+		"title": "need for speed",
+		"category": "racing",
+		"free": true,
+		"platforms": ["ps5", "xbox", "pc"],
+		"image": "assets/poster/need_for_speed.jpg",
+		"size": "2.1Go",
+		"download": 8.5,
+		"unity": "m",
+		"characters": [
+			{
+				"id": 1,
+				"name": "leroy smith",
+				"pseudo": "grandmaster of drip",
+				"avatar": "assets/avatar/avatar_leroy.png",
+				"image": "assets/character/character_leroy.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 60
+					},
+					{
+						"title": "skill",
+						"value": 75
+					},
+					{
+						"title": "armor",
+						"value": 65
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Leroy Smith is extolled as a hero for freeing New York from the clutches of gangs. When he finds out that the Mishima Zaibatsu was the ringleader behind the war that tore the city apart half a century ago, he decides to participate in The King of Iron Fist Tournament with the sole purpose of taking them down."
+			},
+			{
+				"id": 2,
+				"name": "marshall law",
+				"pseudo": "the legendary dragon",
+				"avatar": "assets/avatar/avatar_marshall.png",
+				"image": "assets/character/character_marshall.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 80
+					},
+					{
+						"title": "armor",
+						"value": 40
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Marshall Law is a renowned martial arts master and runs his own dojo. However, he fell into debt due to his son's motorcycle accident, and his efforts to repay this debt caused him to neglect the management of his dojo, resulting in a sharp drop-off of students coming to train. Law set out to find a distinguished master who could take over the dojo and solve all his troubles. Unfortunately, all negotiations ended in failure, and to make matters worse, his dojo was repossessed as collateral while he was gone."
+			},
+			{
+				"id": 3,
+				"name": "yoshimitsu",
+				"pseudo": "mechnized space ninja",
+				"avatar": "assets/avatar/avatar_yoshimitsu.png",
+				"image": "assets/character/character_yoshimitsu.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 80
+					},
+					{
+						"title": "skillfull",
+						"value": 30
+					},
+					{
+						"title": "armor",
+						"value": 50
+					},
+					{
+						"title": "speed",
+						"value": 70
+					}
+				],
+				"description": "Yoshimitsu is an inheritor of the Manji Ninjutsu and current head of the Manji Clan, a group of chivalrous thieves active since the Sengoku period. Six months ago, Yoshimitsu accepted a request from an investor of the refugee relief project. The task was to find archives that contained information on the past doings of the Mishima Zaibatsu."
+			},
+			{
+				"id": 4,
+				"name": "lars alexandersson",
+				"pseudo": "the lion of the rebellion",
+				"avatar": "assets/avatar/avatar_lars.png",
+				"image": "assets/character/character_lars.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 40
+					},
+					{
+						"title": "armor",
+						"value": 45
+					},
+					{
+						"title": "speed",
+						"value": 75
+					}
+				],
+				"description": "Lars alexandersson is Heihachi Mishima's illegitimate son and the leader of the rebel army fighting against G Corporation. A former officer of the Mishima Zaibatsu's special military unit known as the Tekken Force, Lars led a coup d'état against the Zaibatsu and took many of the Tekken Force personnel with him."
+			}
+		],
+		"trailer_link": "https://www.youtube.com/watch?v=LgMiPhPYuDg&pp=ygUZdGVra2VuidggZ2FtZXBsYXkgdHJhaWxlcg%3D%3D",
+		"synopsis": "After his victory against his father - Heihachi Mishima - Kazuya continues his goal of world domination aided by the armed forces of the G Corporation. Jin is then forced to face his destiny, as he reunites with his long-lost mother, ending the reign of terror of his father, Kazuya."
+	},
+	{
+		"id": 4,
+		"title": "fifa 2023",
+		"category": "sport",
+		"free": false,
+		"platforms": ["ps5", "xbox", "pc", "android", "ios"],
+		"image": "assets/poster/tekken_8.jpg",
+		"size": "1.8Go",
+		"download": 100,
+		"unity": "m",
+		"characters": [
+			{
+				"id": 1,
+				"name": "leroy smith",
+				"pseudo": "grandmaster of drip",
+				"avatar": "assets/avatar/avatar_leroy.png",
+				"image": "assets/character/character_leroy.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 60
+					},
+					{
+						"title": "skill",
+						"value": 75
+					},
+					{
+						"title": "armor",
+						"value": 65
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Leroy Smith is extolled as a hero for freeing New York from the clutches of gangs. When he finds out that the Mishima Zaibatsu was the ringleader behind the war that tore the city apart half a century ago, he decides to participate in The King of Iron Fist Tournament with the sole purpose of taking them down."
+			},
+			{
+				"id": 2,
+				"name": "marshall law",
+				"pseudo": "the legendary dragon",
+				"avatar": "assets/avatar/avatar_marshall.png",
+				"image": "assets/character/character_marshall.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 80
+					},
+					{
+						"title": "armor",
+						"value": 40
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Marshall Law is a renowned martial arts master and runs his own dojo. However, he fell into debt due to his son's motorcycle accident, and his efforts to repay this debt caused him to neglect the management of his dojo, resulting in a sharp drop-off of students coming to train. Law set out to find a distinguished master who could take over the dojo and solve all his troubles. Unfortunately, all negotiations ended in failure, and to make matters worse, his dojo was repossessed as collateral while he was gone."
+			},
+			{
+				"id": 3,
+				"name": "yoshimitsu",
+				"pseudo": "mechnized space ninja",
+				"avatar": "assets/avatar/avatar_yoshimitsu.png",
+				"image": "assets/character/character_yoshimitsu.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 80
+					},
+					{
+						"title": "skillfull",
+						"value": 30
+					},
+					{
+						"title": "armor",
+						"value": 50
+					},
+					{
+						"title": "speed",
+						"value": 70
+					}
+				],
+				"description": "Yoshimitsu is an inheritor of the Manji Ninjutsu and current head of the Manji Clan, a group of chivalrous thieves active since the Sengoku period. Six months ago, Yoshimitsu accepted a request from an investor of the refugee relief project. The task was to find archives that contained information on the past doings of the Mishima Zaibatsu."
+			},
+			{
+				"id": 4,
+				"name": "lars alexandersson",
+				"pseudo": "the lion of the rebellion",
+				"avatar": "assets/avatar/avatar_lars.png",
+				"image": "assets/character/character_lars.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 40
+					},
+					{
+						"title": "armor",
+						"value": 45
+					},
+					{
+						"title": "speed",
+						"value": 75
+					}
+				],
+				"description": "Lars alexandersson is Heihachi Mishima's illegitimate son and the leader of the rebel army fighting against G Corporation. A former officer of the Mishima Zaibatsu's special military unit known as the Tekken Force, Lars led a coup d'état against the Zaibatsu and took many of the Tekken Force personnel with him."
+			}
+		],
+		"trailer_link": "https://www.youtube.com/watch?v=LgMiPhPYuDg&pp=ygUZdGVra2VuidggZ2FtZXBsYXkgdHJhaWxlcg%3D%3D",
+		"synopsis": "After his victory against his father - Heihachi Mishima - Kazuya continues his goal of world domination aided by the armed forces of the G Corporation. Jin is then forced to face his destiny, as he reunites with his long-lost mother, ending the reign of terror of his father, Kazuya."
+	},
+	{
+		"id": 5,
+		"title": "tekken 8",
+		"category": "fighting",
+		"free": true,
+		"platforms": ["ps5", "xbox", "pc"],
+		"image": "assets/poster/tekken_8.jpg",
+		"size": "2.45Go",
+		"download": 10,
+		"unity": "m",
+		"characters": [
+			{
+				"id": 1,
+				"name": "leroy smith",
+				"pseudo": "grandmaster of drip",
+				"avatar": "assets/avatar/avatar_leroy.png",
+				"image": "assets/character/character_leroy.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 60
+					},
+					{
+						"title": "skill",
+						"value": 75
+					},
+					{
+						"title": "armor",
+						"value": 65
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Leroy Smith is extolled as a hero for freeing New York from the clutches of gangs. When he finds out that the Mishima Zaibatsu was the ringleader behind the war that tore the city apart half a century ago, he decides to participate in The King of Iron Fist Tournament with the sole purpose of taking them down."
+			},
+			{
+				"id": 2,
+				"name": "marshall law",
+				"pseudo": "the legendary dragon",
+				"avatar": "assets/avatar/avatar_marshall.png",
+				"image": "assets/character/character_marshall.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 80
+					},
+					{
+						"title": "armor",
+						"value": 40
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Marshall Law is a renowned martial arts master and runs his own dojo. However, he fell into debt due to his son's motorcycle accident, and his efforts to repay this debt caused him to neglect the management of his dojo, resulting in a sharp drop-off of students coming to train. Law set out to find a distinguished master who could take over the dojo and solve all his troubles. Unfortunately, all negotiations ended in failure, and to make matters worse, his dojo was repossessed as collateral while he was gone."
+			},
+			{
+				"id": 3,
+				"name": "yoshimitsu",
+				"pseudo": "mechnized space ninja",
+				"avatar": "assets/avatar/avatar_yoshimitsu.png",
+				"image": "assets/character/character_yoshimitsu.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 80
+					},
+					{
+						"title": "skillfull",
+						"value": 30
+					},
+					{
+						"title": "armor",
+						"value": 50
+					},
+					{
+						"title": "speed",
+						"value": 70
+					}
+				],
+				"description": "Yoshimitsu is an inheritor of the Manji Ninjutsu and current head of the Manji Clan, a group of chivalrous thieves active since the Sengoku period. Six months ago, Yoshimitsu accepted a request from an investor of the refugee relief project. The task was to find archives that contained information on the past doings of the Mishima Zaibatsu."
+			},
+			{
+				"id": 4,
+				"name": "lars alexandersson",
+				"pseudo": "the lion of the rebellion",
+				"avatar": "assets/avatar/avatar_lars.png",
+				"image": "assets/character/character_lars.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 40
+					},
+					{
+						"title": "armor",
+						"value": 45
+					},
+					{
+						"title": "speed",
+						"value": 75
+					}
+				],
+				"description": "Lars alexandersson is Heihachi Mishima's illegitimate son and the leader of the rebel army fighting against G Corporation. A former officer of the Mishima Zaibatsu's special military unit known as the Tekken Force, Lars led a coup d'état against the Zaibatsu and took many of the Tekken Force personnel with him."
+			}
+		],
+		"trailer_link": "https://www.youtube.com/watch?v=LgMiPhPYuDg&pp=ygUZdGVra2VuidggZ2FtZXBsYXkgdHJhaWxlcg%3D%3D",
+		"synopsis": "After his victory against his father - Heihachi Mishima - Kazuya continues his goal of world domination aided by the armed forces of the G Corporation. Jin is then forced to face his destiny, as he reunites with his long-lost mother, ending the reign of terror of his father, Kazuya."
+	},
+	{
+		"id": 6,
+		"title": "fifa 2023",
+		"category": "sport",
+		"free": false,
+		"platforms": ["ps5", "xbox", "pc", "android", "ios"],
+		"image": "assets/poster/tekken_8.jpg",
+		"size": "1.6Go",
+		"download": 5,
+		"unity": "m",
+		"characters": [
+			{
+				"id": 1,
+				"name": "leroy smith",
+				"pseudo": "grandmaster of drip",
+				"avatar": "assets/avatar/avatar_leroy.png",
+				"image": "assets/character/character_leroy.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 60
+					},
+					{
+						"title": "skill",
+						"value": 75
+					},
+					{
+						"title": "armor",
+						"value": 65
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Leroy Smith is extolled as a hero for freeing New York from the clutches of gangs. When he finds out that the Mishima Zaibatsu was the ringleader behind the war that tore the city apart half a century ago, he decides to participate in The King of Iron Fist Tournament with the sole purpose of taking them down."
+			},
+			{
+				"id": 2,
+				"name": "marshall law",
+				"pseudo": "the legendary dragon",
+				"avatar": "assets/avatar/avatar_marshall.png",
+				"image": "assets/character/character_marshall.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 80
+					},
+					{
+						"title": "armor",
+						"value": 40
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Marshall Law is a renowned martial arts master and runs his own dojo. However, he fell into debt due to his son's motorcycle accident, and his efforts to repay this debt caused him to neglect the management of his dojo, resulting in a sharp drop-off of students coming to train. Law set out to find a distinguished master who could take over the dojo and solve all his troubles. Unfortunately, all negotiations ended in failure, and to make matters worse, his dojo was repossessed as collateral while he was gone."
+			},
+			{
+				"id": 3,
+				"name": "yoshimitsu",
+				"pseudo": "mechnized space ninja",
+				"avatar": "assets/avatar/avatar_yoshimitsu.png",
+				"image": "assets/character/character_yoshimitsu.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 80
+					},
+					{
+						"title": "skillfull",
+						"value": 30
+					},
+					{
+						"title": "armor",
+						"value": 50
+					},
+					{
+						"title": "speed",
+						"value": 70
+					}
+				],
+				"description": "Yoshimitsu is an inheritor of the Manji Ninjutsu and current head of the Manji Clan, a group of chivalrous thieves active since the Sengoku period. Six months ago, Yoshimitsu accepted a request from an investor of the refugee relief project. The task was to find archives that contained information on the past doings of the Mishima Zaibatsu."
+			},
+			{
+				"id": 4,
+				"name": "lars alexandersson",
+				"pseudo": "the lion of the rebellion",
+				"avatar": "assets/avatar/avatar_lars.png",
+				"image": "assets/character/character_lars.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 40
+					},
+					{
+						"title": "armor",
+						"value": 45
+					},
+					{
+						"title": "speed",
+						"value": 75
+					}
+				],
+				"description": "Lars alexandersson is Heihachi Mishima's illegitimate son and the leader of the rebel army fighting against G Corporation. A former officer of the Mishima Zaibatsu's special military unit known as the Tekken Force, Lars led a coup d'état against the Zaibatsu and took many of the Tekken Force personnel with him."
+			}
+		],
+		"trailer_link": "https://www.youtube.com/watch?v=LgMiPhPYuDg&pp=ygUZdGVra2VuidggZ2FtZXBsYXkgdHJhaWxlcg%3D%3D",
+		"synopsis": "After his victory against his father - Heihachi Mishima - Kazuya continues his goal of world domination aided by the armed forces of the G Corporation. Jin is then forced to face his destiny, as he reunites with his long-lost mother, ending the reign of terror of his father, Kazuya."
+	},
+	{
+		"id": 7,
+		"title": "tekken 8",
+		"category": "fighting",
+		"free": true,
+		"platforms": ["ps5", "xbox", "pc"],
+		"image": "assets/poster/tekken_8.jpg",
+		"size": "5Go",
+		"download": 2,
+		"unity": "m",
+		"characters": [
+			{
+				"id": 1,
+				"name": "leroy smith",
+				"pseudo": "grandmaster of drip",
+				"avatar": "assets/avatar/avatar_leroy.png",
+				"image": "assets/character/character_leroy.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 60
+					},
+					{
+						"title": "skill",
+						"value": 75
+					},
+					{
+						"title": "armor",
+						"value": 65
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Leroy Smith is extolled as a hero for freeing New York from the clutches of gangs. When he finds out that the Mishima Zaibatsu was the ringleader behind the war that tore the city apart half a century ago, he decides to participate in The King of Iron Fist Tournament with the sole purpose of taking them down."
+			},
+			{
+				"id": 2,
+				"name": "marshall law",
+				"pseudo": "the legendary dragon",
+				"avatar": "assets/avatar/avatar_marshall.png",
+				"image": "assets/character/character_marshall.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 80
+					},
+					{
+						"title": "armor",
+						"value": 40
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Marshall Law is a renowned martial arts master and runs his own dojo. However, he fell into debt due to his son's motorcycle accident, and his efforts to repay this debt caused him to neglect the management of his dojo, resulting in a sharp drop-off of students coming to train. Law set out to find a distinguished master who could take over the dojo and solve all his troubles. Unfortunately, all negotiations ended in failure, and to make matters worse, his dojo was repossessed as collateral while he was gone."
+			},
+			{
+				"id": 3,
+				"name": "yoshimitsu",
+				"pseudo": "mechnized space ninja",
+				"avatar": "assets/avatar/avatar_yoshimitsu.png",
+				"image": "assets/character/character_yoshimitsu.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 80
+					},
+					{
+						"title": "skillfull",
+						"value": 30
+					},
+					{
+						"title": "armor",
+						"value": 50
+					},
+					{
+						"title": "speed",
+						"value": 70
+					}
+				],
+				"description": "Yoshimitsu is an inheritor of the Manji Ninjutsu and current head of the Manji Clan, a group of chivalrous thieves active since the Sengoku period. Six months ago, Yoshimitsu accepted a request from an investor of the refugee relief project. The task was to find archives that contained information on the past doings of the Mishima Zaibatsu."
+			},
+			{
+				"id": 4,
+				"name": "lars alexandersson",
+				"pseudo": "the lion of the rebellion",
+				"avatar": "assets/avatar/avatar_lars.png",
+				"image": "assets/character/character_lars.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 40
+					},
+					{
+						"title": "armor",
+						"value": 45
+					},
+					{
+						"title": "speed",
+						"value": 75
+					}
+				],
+				"description": "Lars alexandersson is Heihachi Mishima's illegitimate son and the leader of the rebel army fighting against G Corporation. A former officer of the Mishima Zaibatsu's special military unit known as the Tekken Force, Lars led a coup d'état against the Zaibatsu and took many of the Tekken Force personnel with him."
+			}
+		],
+		"trailer_link": "https://www.youtube.com/watch?v=LgMiPhPYuDg&pp=ygUZdGVra2VuidggZ2FtZXBsYXkgdHJhaWxlcg%3D%3D",
+		"synopsis": "After his victory against his father - Heihachi Mishima - Kazuya continues his goal of world domination aided by the armed forces of the G Corporation. Jin is then forced to face his destiny, as he reunites with his long-lost mother, ending the reign of terror of his father, Kazuya."
+	},
+	{
+		"id": 8,
+		"title": "fifa 2023",
+		"category": "sport",
+		"free": false,
+		"platforms": ["ps5", "xbox", "pc", "android", "ios"],
+		"image": "assets/poster/tekken_8.jpg",
+		"size": "1.3Go",
+		"download": 1,
+		"unity": "m",
+		"characters": [
+			{
+				"id": 1,
+				"name": "leroy smith",
+				"pseudo": "grandmaster of drip",
+				"avatar": "assets/avatar/avatar_leroy.png",
+				"image": "assets/character/character_leroy.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 60
+					},
+					{
+						"title": "skill",
+						"value": 75
+					},
+					{
+						"title": "armor",
+						"value": 65
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Leroy Smith is extolled as a hero for freeing New York from the clutches of gangs. When he finds out that the Mishima Zaibatsu was the ringleader behind the war that tore the city apart half a century ago, he decides to participate in The King of Iron Fist Tournament with the sole purpose of taking them down."
+			},
+			{
+				"id": 2,
+				"name": "marshall law",
+				"pseudo": "the legendary dragon",
+				"avatar": "assets/avatar/avatar_marshall.png",
+				"image": "assets/character/character_marshall.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 80
+					},
+					{
+						"title": "armor",
+						"value": 40
+					},
+					{
+						"title": "speed",
+						"value": 50
+					}
+				],
+				"description": "Marshall Law is a renowned martial arts master and runs his own dojo. However, he fell into debt due to his son's motorcycle accident, and his efforts to repay this debt caused him to neglect the management of his dojo, resulting in a sharp drop-off of students coming to train. Law set out to find a distinguished master who could take over the dojo and solve all his troubles. Unfortunately, all negotiations ended in failure, and to make matters worse, his dojo was repossessed as collateral while he was gone."
+			},
+			{
+				"id": 3,
+				"name": "yoshimitsu",
+				"pseudo": "mechnized space ninja",
+				"avatar": "assets/avatar/avatar_yoshimitsu.png",
+				"image": "assets/character/character_yoshimitsu.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 80
+					},
+					{
+						"title": "skillfull",
+						"value": 30
+					},
+					{
+						"title": "armor",
+						"value": 50
+					},
+					{
+						"title": "speed",
+						"value": 70
+					}
+				],
+				"description": "Yoshimitsu is an inheritor of the Manji Ninjutsu and current head of the Manji Clan, a group of chivalrous thieves active since the Sengoku period. Six months ago, Yoshimitsu accepted a request from an investor of the refugee relief project. The task was to find archives that contained information on the past doings of the Mishima Zaibatsu."
+			},
+			{
+				"id": 4,
+				"name": "lars alexandersson",
+				"pseudo": "the lion of the rebellion",
+				"avatar": "assets/avatar/avatar_lars.png",
+				"image": "assets/character/character_lars.png",
+				"skills": [
+					{
+						"title": "strength",
+						"value": 75
+					},
+					{
+						"title": "skill",
+						"value": 40
+					},
+					{
+						"title": "armor",
+						"value": 45
+					},
+					{
+						"title": "speed",
+						"value": 75
+					}
+				],
+				"description": "Lars alexandersson is Heihachi Mishima's illegitimate son and the leader of the rebel army fighting against G Corporation. A former officer of the Mishima Zaibatsu's special military unit known as the Tekken Force, Lars led a coup d'état against the Zaibatsu and took many of the Tekken Force personnel with him."
+			}
+		],
+		"trailer_link": "https://www.youtube.com/watch?v=LgMiPhPYuDg&pp=ygUZdGVra2VuidggZ2FtZXBsYXkgdHJhaWxlcg%3D%3D",
+		"synopsis": "After his victory against his father - Heihachi Mishima - Kazuya continues his goal of world domination aided by the armed forces of the G Corporation. Jin is then forced to face his destiny, as he reunites with his long-lost mother, ending the reign of terror of his father, Kazuya."
+	}
+]

@@ -1,0 +1,30 @@
+.show-notification
+  animation: show-notif 1s 0s both
+
+.hide-notification
+  animation: hide-notif 300ms 0s both
+
+.form-notification
+  opacity: 0
+  position: relative
+  margin: auto
+  width: 50%
+  height: 4rem
+  background-color: $color-accent-3
+  text-align: center
+  padding-top: 1rem
+  color: $color-site-2
+  z-index: 2
+  border-radius: .6rem
+  
+  &__close-icon
+    position: absolute
+    top: 0
+    right: 0
+    background-color: $color-site-2
+    width: 1.5rem
+    height: 1.5rem
+    border-radius: 50%
+    text-align: center
+    cursor: pointer
+    z-index: 7

@@ -1,0 +1,295 @@
+// Media queries mixins
+@mixin media-small
+	@media (max-width: $breakpoint-small)
+		@content
+
+@mixin media-medium
+	@media (max-width: $breakpoint-medium)
+		@content
+
+@mixin media-large
+	@media (max-width: $breakpoint-large)
+		@content
+
+@mixin dark-mode
+	// Body style
+	background-image: $color-site-1-c
+	color: $color-site-2
+
+	.header
+		background-image: $color-site-1-c
+
+		.nav
+			&__list
+				background-image: $color-site-1-c
+			&__item
+				color: $color-site-2
+			&__item--active
+				color: $color-accent-2
+			&__item, &__item--active
+				background-color: transparent
+
+				&:hover
+					color: $color-accent-2
+
+			&__subnav-link
+				color: $color-site-2					
+
+			&__subnav-link--active
+				color: $color-accent-2
+
+			&__subnav-link, &__subnav-link--active
+				background-color: transparent
+
+				&:hover
+					color: $color-accent-2
+
+		&__extra .account-link__item
+			color: $color-site-2
+
+	.footer
+		background-image: $color-site-1-c
+
+		&__link-item
+			color: $color-site-2
+
+	.caroussel
+		&__link-rectangle
+			&-item
+				background-color: $color-site-2
+			&-item--active
+				background-color: $color-accent-2
+
+		&__link-circle,
+		&__character,
+		&__game
+			&-item
+				background-color: $color-site-2
+
+			&-item--active
+				background-color: $color-accent-2
+
+	.character
+		&__details
+			background-color: hsla(0, 0%, 95%, 0.5)
+
+			&-separator
+				background-color: $color-accent-2
+
+	.table
+		background: $color-accent-3
+
+		&__row
+			background-color: $color-site-2-c
+
+			&-col-5
+				color: $color-site-2
+
+	.event
+		&__container
+			background-color: $color-site-2-c
+
+		&__calendar-specific
+			color: $color-site-2
+			background-color: $color-accent-3
+
+	.search-field
+		&__icon
+			color: $color-site-2
+		&__input
+			color: $color-site-2
+			background-color: transparent
+			border: .06rem solid $color-site-2	
+
+	.cta
+		&__no-cta
+			color: $color-site-2
+			background-color: $color-accent-3
+
+		&__simple
+			color: $color-site-2
+			background-color: $color-accent-2
+
+			&:hover
+				background-color: $color-accent-2-c
+
+		&__bordered
+			color: $color-site-2
+			border: 0.09rem solid $color-site-2
+
+			&:hover
+				color: $color-site-2-c
+				background-color: $color-site-2
+
+		&__icon-text
+			color: $color-site-2
+			background-color: $color-accent-2
+			
+			&:hover
+				background-color: $color-accent-2-c
+
+		&__icon
+			color: $color-site-2
+			background-color: $color-accent-2
+
+	.paginate__number-link--active
+		color: $color-accent-2
+
+	.bar
+		background-color: $color-site-2-c
+
+		&__link
+			color: $color-site-2
+
+	.specific-review__list
+		color: $color-site-2-c
+
+	.authentication
+		&__nav-link
+			color: $color-site-2
+
+		&__nav:visited
+			color: $color-site-2
+
+@mixin light-mode
+	// Body style
+	background-color: $color-site-1
+	color: $color-site-2-c
+
+	.header
+		background-color: $color-site-2
+		.nav
+			&__list
+				background-image: $color-site-2
+			&__item
+				color: $color-site-2-c
+			&__item--active
+				color: $color-accent-3
+			&__item, &__item--active
+				background-color: $color-site-2
+
+				&:hover
+					color: $color-accent-3
+			&__subnav-link
+				color: $color-site-2-c
+
+				&:hover
+					color: $color-accent-3
+
+			&__subnav-link--active
+				color: $color-accent-3
+
+			&__subnav-link, &__subnav-link--active
+				background-color: $color-site-2
+
+		&__extra .account-link
+			color: $color-site-2-c
+
+	.footer
+		background-color: $color-site-2
+
+		&__link-item
+			color: $color-site-2-c
+
+	.caroussel
+		&__link-rectangle
+			&-item
+				background-color: $color-site-2-c
+			&-item--active
+				background-color: $color-accent-3
+
+		&__link-circle,
+		&__character,
+		&__game
+			&-item
+				background-color: $color-site-2-c
+
+			&-item--active
+				background-color: $color-accent-3
+
+	.character
+		&__details
+			background-color: hsla(0, 0%, 95%, 0.9)
+
+			&-separator
+				background-color: $color-site-2-c
+
+	.table
+		background: $color-accent-1
+
+		&__row
+			background-color: $color-site-2
+
+			&-col-5
+				color: $color-site-2-c
+
+	.event
+		&__container
+			background-color: $color-site-2
+
+		&__calendar-specific
+			color: $color-site-2
+			background-color: $color-accent-1
+
+	.tooltip__text
+		background-color: $color-site-2-c
+		color: $color-site-2
+
+	.search-field
+		&__icon
+			color: hsla(213, 80%, 14%, 0.7)
+		&__input
+			color: hsla(213, 80%, 14%, 0.7)
+			background-color: $color-site-1
+			border: .06rem solid $color-site-2-c
+
+
+	.games
+		&__title
+			color: $color-site-2 
+
+	.cta
+		&__no-cta
+			color: $color-site-2
+			background-color: $color-accent-3
+
+		&__simple
+			color: $color-site-2
+			background-color: $color-accent-2
+
+			&:hover
+				background-color: $color-accent-2-c
+
+		&__bordered
+			color: $color-site-2-c
+			border: 0.09rem solid $color-accent-2
+
+			&:hover
+				background-color: $color-site-1
+
+		&__icon-text
+			color: $color-site-2
+			background-color: $color-accent-2
+			
+			&:hover
+				background-color: $color-accent-2-c
+
+		&__icon
+			color: $color-site-2
+			background-color: $color-accent-2
+
+	.paginate__number-link--active
+		color: $color-accent-3
+
+	.bar
+		background-color: $color-site-2
+
+		&__link
+			color: $color-site-2-c
+
+	.authentication
+		&__nav-link
+			color: $color-accent-3
+
+		&__nav:visited
+			color: $color-accent-3

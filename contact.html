@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Add website logo -->
+	<link rel="icon" type="image/xml+svg" href="assets/logo-day.svg">
+
+	<!-- Add css -->
+	<link rel="stylesheet" href="styles/main.css">
+
+	<!-- Add js file -->
+	<script type="module" src="scripts/contact.js" defer></script>
+
+	<!-- Theme -->
+	<script src="scripts/theme.js" defer></script>
+
+	<title>Gamever - Contact</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__logo">
+			<a href="index.html"><img class="logo-image" src="assets/logo-day.svg" alt="Logo"></a>
+		</div>
+		<div class="header__navbar">
+			<nav class="nav">
+				<input type="checkbox" id="nav__check" class="nav__check">
+				<!-- Hamburger menu button -->
+				<div class="nav__btn">
+					<label for="nav__check" class="nav__icon">
+					<img class="nav__hamburger" alt="Logo" src="assets/icons/hamburger-menu.svg">
+					</label>
+				</div>
+				<!-- Links -->
+				<div class="nav__list">
+					<a class="nav__item" href="index.html">
+						<span class="nav__item-text">Accueil</span>
+					</a>
+					<a class="nav__item" href="games.html">
+						<span class="nav__item-text">Jeux</span>
+					</a>
+					<a class="nav__item" href="community.html">
+						<span class="nav__item-text">Communauté</span>
+					</a>
+					<a class="nav__item--active" href="contact.html">
+						<span class="nav__item-text">Contact</span>
+					</a>
+					<span class="sm-only">
+						<a class="nav__item" href="authentication.html#nav-signup">
+							<span class="nav__item-text">Ma section</span>
+						</a>
+						<a class="nav__item" href="authentication.html#nav-signup">
+							<span class="nav__item-text">Déconnexion</span>
+						</a>
+					</span>
+				</div>
+			</nav>
+		</div>
+		<div class="header__extra">
+			<a class="header__extra-theme">
+				<img class="theme-image" src="assets/icons/moon.svg" alt="Mode nuit/Jour">
+			</a>
+			<ul class="header__extra-user account-link md-only">
+				<li class="account-link__item">
+					<img class="account-link__image" src="assets/icons/account.svg" alt="Icône compte">
+					<div class="nav__subnav">
+						<a class="nav__subnav-link" href="authentication.html#nav-signup">Ma section</a>
+						<a class="nav__subnav-link" href="#">Exit</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="header__extra-user account-link l-only">
+				<li class="account-link__item">
+					Mon compte
+					<div class="nav__subnav">
+						<a class="nav__subnav-link" href="authentication.html#nav-signup">Ma section</a>
+						<a class="nav__subnav-link" href="#">Exit</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<section class="contact">
+		<h1 class="contact__title">
+			Leave us message
+			<img src="assets/icons/cool.svg" alt="Cool">!
+		</h1>
+
+		<div class="form-notification">
+			<p class="form-notification__text">cool</p>
+			<img src="assets/icons/cancel.svg" alt="Fermer" class="form-notification__close-icon">
+		</div>
+		<form class="form-contact" action="#" method="get">
+			<div class="form-contact__item">
+				<input type="text" id="contact-name" name="name">
+				<label for="contact-name">Your name</label>
+				<small class="form-contact__name--helper">Too short name</small>
+			</div>
+			<div class="form-contact__item">
+				<input type="email" id="contact-email" name="email">
+				<label for="contact-email">Your mail</label>
+				<small class="form-contact__email--helper">Invalid email</small>
+			</div>
+			<div class="form-contact__item">
+				<textarea name="message" id="contact-message" cols="30" rows="7"></textarea>
+				<label for="contact-message">What can we do for you ?</label>
+				<small class="form-contact__message--helper">Too short message</small>
+			</div>
+			<input class="form-contact__submit cta__simple" type="submit" value="Send your message">
+		</form>
+	</section>
+
+	<footer class="footer">
+		<img src="assets/logo-day.svg" alt="Logo Gamever" class="footer__logo">
+		<!-- Handle links for large screen -->
+		<div class="footer__link l-only">
+			<div class="footer__link-list">
+				<a href="games.html" class="footer__link-item">Jeux</a>
+				<a href="index.html#home-event" class="footer__link-item">Evènements</a>
+			</div>
+			<div class="footer__link-list">
+				<a href="index.html#home-top" class="footer__link-item">Top 5 des jeux</a>
+				<a href="community.html" class="footer__link-item">Communauté</a>
+			</div>
+			<div class="footer__link-list">
+				<a href="index.html#home-latest" class="footer__link-item">Derniers ajouts</a>
+				<a href="contact.html" class="footer__link-item">Contact</a>
+			</div>
+			<div class="footer__link-list">
+				<a href="#" class="footer__link-item">Actualités</a>
+				<a href="mailto:gamever@play.com" class="footer__link-item">gamever@play.com</a>
+			</div>
+		</div>
+		<!-- Handle links for medium screen -->
+		<div class="footer__link md-only">
+			<div class="footer__link-list">
+				<a href="games.html" class="footer__link-item">Jeux</a>
+				<a href="#" class="footer__link-item">Actualités</a>
+				<a href="contact.html" class="footer__link-item">Contact</a>
+			</div>
+			<div class="footer__link-list">
+				<a href="index.html#home-top" class="footer__link-item">Top 5 des jeux</a>
+				<a href="index.html#home-event" class="footer__link-item">Evènements</a>
+				<a href="mailto:gamever@play.com" class="footer__link-item">gamever@play.com</a>
+			</div>
+			<div class="footer__link-list">
+				<a href="index.html#home-latest" class="footer__link-item">Derniers ajouts</a>
+				<a href="community.html" class="footer__link-item">Communauté</a>
+				<div class="search-field">
+					<img class="search-field__icon" src="assets/icons/search.svg" alt="Icône de loupe pour la recherche">
+					<input class="footer__item search-field__input" type="text" placeholder="Recevez l'actualité">
+				</div>
+			</div>
+		</div>
+		<!-- Handle links for small screen -->
+		<div class="footer__link sm-only">
+			<div class="footer__link-list">
+				<a href="games.html" class="footer__link-item">Jeux</a>
+				<a href="index.html#home-top" class="footer__link-item">Top 5 des jeux</a>
+				<a href="index.html#home-latest" class="footer__link-item">Derniers ajouts</a>
+				<a href="#" class="footer__link-item">Actualités</a>
+			</div>
+			<div class="footer__link-list">
+				<a href="index.html#home-event" class="footer__link-item">Evènements</a>
+				<a href="community.html" class="footer__link-item">Communauté</a>
+				<a href="contact.html" class="footer__link-item">Contact</a>
+				<a href="mailto:gamever@play.com" class="footer__link-item">gamever@play.com</a>
+			</div>
+		</div>
+		<div class="md-none">
+			<div class="search-field">
+				<img class="search-field__icon" src="assets/icons/search.svg" alt="Icône de loupe pour la recherche">
+				<input class="footer__item search-field__input" type="text" placeholder="Recevez l'actualité">
+			</div>
+		</div>
+		<div class="footer__social">
+			<img src="assets/icons/discord.svg" alt="Logo discord" class="footer__social-item">
+			<img src="assets/icons/instagram.svg" alt="Logo instagram" class="footer__social-item">
+			<img src="assets/icons/youtube.svg" alt="Logo youtube" class="footer__social-item">
+			<img src="assets/icons/facebook.svg" alt="Logo facebook" class="footer__social-item">
+			<img src="assets/icons/twitter.svg" alt="Logo twitter" class="footer__social-item">
+		</div>
+		<img src="assets/images/ps5-controller-red.png" class="footer__bg-image" alt="PlayStation 5 controller">
+	</footer>
+</body>
+</html>

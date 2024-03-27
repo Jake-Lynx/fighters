@@ -1,0 +1,144 @@
+.specific
+	&-about
+		display: flex
+		gap: 2.5rem 
+		margin-top: 13.69rem
+		@include media-medium
+			flex-direction: column
+			margin-top: 5rem
+		@include media-small
+
+		&__text
+			display: flex
+			flex-direction: column
+			align-items: center
+		@include media-medium
+			text-align: center
+		@include media-small
+
+	&-characters
+		margin-top: 19.06rem
+		@include media-small
+			margin-top: 7rem
+
+		&__title
+			text-align: center
+			margin-bottom: 5.18rem
+
+		&__content
+			display: flex
+			align-items: center
+			gap: 8.56rem
+			@include media-medium
+				flex-direction: column
+			@include media-small
+				gap: 4rem
+
+		&__image
+			width: 18.81rem
+			height: 28.25rem
+			@include media-medium
+				width: 14rem
+				height: 21.03rem
+
+		&__characteristic
+			display: flex
+
+		&__details
+			display: flex
+			flex-direction: column
+			width: 100%
+			@include media-medium
+				gap: 3.08rem
+
+		&__name
+			text-align: center
+			text-transform: capitalize
+
+		&__pseudo
+			font-style: italic
+			font-size: $font-size-litle
+
+		&__skills-list
+			@include media-medium
+				display: flex
+				justify-content: center
+				flex-wrap: wrap
+				gap: 1rem
+			@include media-small
+				flex-direction: column
+				align-items: flex-start
+
+		&__skills-item
+			list-style-type: none
+			margin-top: 2rem
+
+			& .skill
+				&-label
+					text-transform: capitalize
+					display: block
+				&-bar
+					width: 16rem
+					height: 1rem
+					border-radius: 0.5rem
+					background-color: $color-site-2-c
+					@include media-medium
+						width: 10rem
+						height: .5rem
+				&-value
+					height: 100%
+					background-color: $color-accent-1
+					border-radius: 0.5rem
+
+		&__description
+			text-align: center
+
+
+	&-platforms
+		margin-top: 8.56rem
+		@include media-medium
+			margin-top: 7rem
+		@include media-small
+			margin-top: 2.88rem
+
+		&__title
+			text-align: center
+			margin-bottom: 6.88rem
+			@include media-small
+				margin-bottom: 3.75rem
+
+		&__list
+			display: flex
+			justify-content: center
+			gap: 4.38rem
+			@include media-medium
+				gap: 3rem
+			@include media-small
+				gap: 1.5rem
+
+	&-review
+		margin-top: 6.25rem
+		&__title
+			text-align: center
+			margin-bottom: 1.75rem
+
+		&__list
+			display: flex
+			flex-direction: column
+			align-items: center
+			gap: 2.19rem
+
+	&-cta
+		display: flex
+		flex-direction: column
+		align-items: center
+		margin-top: 7.88rem
+		@include media-small
+			margin-top: 4rem
+
+		&__title
+			text-align: center
+			margin-bottom: 3.63rem
+
+		& .cta__simple
+			text-align: center

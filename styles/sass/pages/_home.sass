@@ -1,0 +1,221 @@
+.home
+	&-presentation
+		position: relative
+		display: flex
+		justify-content: space-around
+		margin-top: 8rem
+		text-align: center
+		gap: 1rem
+		@include media-small
+			display: flex
+			flex-direction: column
+
+		&__title
+			&-image
+				position: absolute
+				right: 6rem
+				top: 4.8rem
+				z-index: -1
+
+		&__image
+			position: relative
+
+			&-main
+				width: 40.81rem
+				height: auto
+				object-fit: cover
+				box-shadow: 0 0 .31rem 0 $color-accent-2
+				@include media-medium
+					width: 22rem
+				@include media-small
+					width: 100%
+					margin: auto
+
+			&-secondary
+				position: absolute
+				top: -5.35rem
+				left: 0
+				z-index: -1
+
+		&__heading
+			position: relative
+
+			&-image
+				position: absolute
+				right: 5.2rem
+				top: 2.3rem
+				z-index: -1
+
+		&__transition
+			position: absolute
+			top: -17rem
+			left: 0rem
+			width: 31.5rem
+			height: 35.13rem
+			@include media-medium
+				top: -14rem
+				left: -2rem
+				width: 20.5rem
+				height: 22.86rem
+			@include media-small
+				top: -12rem
+				left: -2rem
+				width: 16.5rem
+				height: 18.4rem
+
+	&-platform
+		margin-top: 11.25rem
+
+		@include media-medium
+			position: relative
+
+		&__title
+			text-align: center
+			margin-bottom: 5.19rem
+
+		&__list
+			display: flex
+			justify-content: center
+			gap: 4.38rem
+			@include media-medium
+				position: relative
+
+			&-item
+				height: 4.38rem
+				width: auto
+				@include media-medium
+					position: relative
+					height: 3.13rem
+
+				&:nth-child(1)
+					transform: rotate(-35.55deg)
+					@include media-medium
+						top: 1rem
+					@include media-small
+						top: 2rem
+						left: 9rem
+				&:nth-child(2)
+					transform: rotate(34.18deg)
+					@include media-medium
+						bottom: 16rem
+					@include media-small
+						bottom: 4rem
+						left: -5rem
+				&:nth-child(3)
+					@include media-medium
+						bottom: -6rem
+					@include media-small
+						bottom: -4rem
+						left: 6rem
+				&:nth-child(4)
+					transform: rotate(-19.54deg)
+					@include media-medium
+						bottom: 15rem
+						left: 3rem
+					@include media-small
+						bottom: 5rem
+						left: -8rem
+				&:nth-child(5)
+					transform: rotate(-16.72deg)
+					@include media-small
+						right: 4rem
+
+	&-character
+		position: relative
+
+		&__heading
+			position: relative
+			text-align: center
+
+			&-image
+				position: relative
+				top: 8.5rem
+				right: 13rem
+				@include media-small
+					top: 11rem
+					right: 5.2rem
+
+		&__caroussel
+			margin-top: 12rem
+
+			&-content
+				display: flex
+				justify-content: space-around
+				
+				.character
+					@include media-medium
+						&:last-child
+							display: none
+
+		&__transition
+			position: absolute
+			top: 36rem
+			left: 0rem
+			width: 31.25rem
+			height: 26.99rem
+			z-index: -3
+
+	&-game
+		margin-top: 7rem
+
+		&__title
+			text-align: center
+
+		&__caroussel
+			margin-top: 3rem
+
+			&-content
+				display: flex
+				justify-content: space-around
+				flex-wrap: wrap
+				
+				.game
+					@include media-medium
+						&:last-child
+							display: none
+
+	&-latest
+		position: relative
+		margin-top: 7rem
+		&__title
+			text-align: center
+
+		&__list
+			display: flex
+			justify-content: center
+			gap: 5.8rem
+			flex-wrap: wrap
+
+		& .latest-game
+			@include media-medium
+				&:nth-child(4)
+					display: none
+			@include media-small
+				&:nth-child(3),
+				&:nth-child(4)
+					display: none
+
+		&__transition
+			position: absolute
+			bottom: -2rem
+			right: 1rem
+			width: 11.23rem
+			height: 18.75rem
+			transform: rotate(-1.98deg)
+			z-index: -3
+			@include media-small
+				bottom: 1rem
+				right: 0rem
+
+	&-top
+		margin-top: 18.68rem
+
+		&__title
+			text-align: center
+			margin-bottom: 7.44rem
+
+	&-event
+		&__title
+			text-align: center
+			margin-top: 7rem
+			margin-bottom: 4.75rem

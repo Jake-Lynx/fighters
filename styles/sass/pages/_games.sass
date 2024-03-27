@@ -1,0 +1,73 @@
+.games
+	&-hero
+		position: relative
+		margin-top: 3.88rem
+
+		&__title
+			position: relative
+			bottom: 8rem
+			text-align: center
+			z-index: 1
+			@include media-small
+				font-size: $font-size-heading-h2
+				bottom: 5rem
+
+		&__image
+			display: block
+			margin: auto
+			box-shadow: 0 0 .31rem 0 $color-site-2-c
+			z-index: 0
+
+			@include media-medium
+				width: 100%
+
+	&-search
+		& .search-field__input
+			padding-left: 0
+
+		& .search-field__icon
+			top: 45%
+			right: -.5rem
+
+	&-filter
+		margin-top: 5rem
+
+		&__icon
+			float: left
+
+		&__criteria
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+
+			&-list
+				display: flex
+				justify-content: center
+				flex-wrap: wrap
+				gap: 3.13rem
+
+		& .cta-reset
+			margin-top: 3rem
+
+			&__icon
+				width: 1rem
+				height: 1rem
+
+	&-list
+		&__content
+			display: grid
+			grid-template-columns: 1fr 1fr 1fr
+			grid-template-rows: 1fr 1fr
+			gap: 2rem
+			margin-top: 5rem
+			@include media-medium
+				grid-template-columns: 1fr 1fr
+			@include media-small
+				grid-template-columns: 1fr
+
+			&-search--notification
+				text-align: center
+
+			& .game-card
+				margin-bottom: 5rem

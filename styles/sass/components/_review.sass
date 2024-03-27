@@ -1,0 +1,68 @@
+.review
+  display: flex
+  flex-direction: column
+  width: 38.9rem
+  height: 5.19rem
+  border-radius: .63rem
+  border-top: .2rem solid $color-accent-3
+  margin-bottom: 1.69rem
+  background-color: $color-site-2
+  @include media-medium
+    width: 100%
+    max-width: 28.6rem
+  @include media-small
+    width: 100%
+    margin-bottom: 1.69rem
+
+  &__main-container
+    display: flex
+    flex-direction: row
+
+  &__avatar
+    width: 2.5rem
+    height: 2.5rem
+    border-radius: 50%
+    margin: .56rem 0 0 .62rem
+
+  &__content
+    width: 100%
+    margin-left: .31rem
+    margin-right: .17rem
+
+  &__name
+    margin-bottom: 0
+
+  &__comment
+    height: 2.5rem
+    margin-top: .2rem
+    margin-bottom: 0
+ 
+  &__time
+    text-align: right
+    margin-top: .06rem
+    
+  // Handle review that must be in right side (impair review) 
+  &:nth-child(even)
+    display: flex
+    flex-direction: column
+    text-align: right
+    margin-right: -15rem
+    @include media-small
+      margin-right: 0
+    
+    .review__main-container
+      display: flex
+      flex-direction: row-reverse
+
+    .review__time
+      text-align: left
+      margin-top: -1.21rem
+      margin-left: 0.5rem
+
+  &:nth-child(odd)
+    margin-left: -15rem
+    @include media-small
+      margin-left: 0
+    .review__time
+      margin-top: -1.21rem
+      margin-right: 0.5rem

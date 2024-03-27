@@ -1,0 +1,88 @@
+.event
+  display: flex
+  justify-content: space-around
+  gap: 2.69rem
+
+
+  &__container
+    width: 18.8rem
+    padding: .94rem 1.12rem 0 .81rem
+    border-radius: .63rem
+
+  // table
+  &__calendar
+    width: 18.8rem
+    border-spacing: 1.12rem
+    border-radius: .63rem
+
+    // Month & Year
+    &-date
+      text-transform: capitalize
+      text-align: left
+      margin-bottom: 1.12rem
+      font-weight: bold
+
+    // Week days
+    &-day
+      text-align: center
+      text-transform: uppercase
+
+    // Month date (eg: 1, 2, etc.)
+    &-number--row
+      text-align: center
+
+    &-number--cell
+      font-weight: bold
+
+    // Event date date
+    &-specific
+      padding: .15rem
+      border-radius: 50%
+      cursor: pointer
+
+  // event image div
+  &__image
+    & img
+      width: 12.5rem
+      height: 18.75rem
+      object-fit: cover
+
+  // Event details (eg: title, place, etc.)
+  &__content
+    max-width: 24.25rem
+
+    &-title
+      text-align: center
+
+    &-time
+      margin-bottom: 1.69rem
+
+    &-time,
+    &-place
+      display: flex
+      align-items: center
+      gap: 1.5rem
+
+    &-icon
+      width: 2rem
+      height: 2rem
+
+// tooltip rules
+.tooltip
+  position: relative
+  display: inline-block
+  border: none
+
+  &__text
+    visibility: hidden
+    width: 12.5rem
+    text-align: left
+    border-radius: .38rem
+
+    /* Position the tooltip */
+    position: absolute
+    z-index: 1
+
+  &:hover &__text
+    @include media-small
+      visibility: visible

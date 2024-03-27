@@ -1,0 +1,78 @@
+// Generic classes
+body
+  font-family: $font-family-body-text
+  font-size: $font-size-body
+  font-weight: $font-weight-body
+  
+  @media (prefers-color-scheme: dark)
+    @include dark-mode
+
+  h1
+    font-family: $font-family-heading
+    font-size: $font-size-heading-h1
+    font-weight: $font-weight-heading-h1
+
+  h2
+    font-family: $font-family-heading
+    font-size: $font-size-heading-h2
+
+  h3
+    font-family: $font-family-heading
+    font-size: $font-size-heading-h3
+
+  h4
+    font-family: $font-family-heading
+    font-size: $font-size-heading-h4
+
+  h5
+    font-family: $font-family-heading
+    font-size: $font-size-heading-h5
+
+  h6
+    font-family: $font-family-heading
+    font-size: $font-size-heading-h6
+
+  a
+    text-decoration: none
+
+  & .hide-it
+    visibility: hidden
+
+  & .show-avatar
+    box-shadow: 0 0 0 0 hsla(360, 96%, 51%, .3) inset, 0 0 .5rem .5rem hsla(360, 96%, 51%, .3)
+    filter: grayscale(0)
+
+  & .hidden
+    display: none
+  
+  // Display only on large screen
+  & .l-only
+    // insert here medium screen breakpoints px
+    @include media-medium
+      display: none
+
+  // Display only on medium screen
+  & .md-only
+    // insert here medium screen breakpoints px
+    @media (min-width: $breakpoint-medium)
+      display: none
+
+    // insert here small screen breakpoints px
+    @include media-small
+      display: none
+
+
+  & .sm-only // insert here small screen breakpoints px
+    @media (min-width: $breakpoint-small)
+      display: none
+
+  // Hide only on medium screen
+  & .md-none
+    // insert here small and medium screen breakpoints px
+    @media (min-width: $breakpoint-small) and (max-width: $breakpoint-medium)
+      display: none
+
+  // Hide only on small screen
+  & .sm-above
+    @include media-small
+      display: none
